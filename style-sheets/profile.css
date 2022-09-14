@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem 2rem 10rem;
+    background: repeating-linear-gradient(#fff,rgb(255, 214, 119));
+}
+
+.profile{
+    text-align: center;
+    
+}
+.profile ul li button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px rgb(123, 122, 122);
+}
+.profile-list{
+    text-decoration: none;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile ul button{
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;    
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    border-radius: 20px;   
+    cursor: pointer;
+}
+/* styling the buttons individually */
+#hacker-rank{
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 0rem;
+    color: #fff;
+    display: inline-block;
+}
+#hacker-rank{
+    display: inline-block;
+}
+.name{
+    display: flex;
+}
+#hacker-earth{
+    background-color: rgb(28, 7, 86);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 0rem;
+    color: #fff;
+    text-decoration: underline;
+}
+#Leetcode{
+    font-family: 'Combo', cursive;
+    background-color: rgb(255, 183, 0);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 0rem;
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+#Geeks-for-geeks{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 25px;
+    color: #090;
+    text-align: center;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    background-color: black;
+    font-weight: 700;
+}
+#Code-chef{
+    font-family: monospace;
+    background-color:#554646;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 0rem;
+    color: rgb(255, 252, 252);
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+#profile-img img{
+    border: 2px solid #000;
+    border-radius: 20px;
+    background: repeating-linear-gradient(#fff,rgb(255, 255, 255));
+}
+#profile-img{
+    display: flex;
+    align-items: center;
+}
+.profile-heading{
+    text-align: center;
+    margin: 2rem;
+}
+.Rank{
+    display: inline-block;
+    color: #090;
+}
